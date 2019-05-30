@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<title>Currency converter</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+</head>
+
+<body >
+	<div id="container">
+		<header>
+			<h1>Currency converter</h1>
+		</header>
+		<h2>Enter the amount to exchange:</h2>
+		<form>
+			 <input type="number" class="converter" id="amountInput" required>
+			 <select class="converter" id="currencyInput" required>
+				 <option>PLN</option>
+			 </select>
+			 <label>convert to:</label>
+			 <select class="converter" id="currencyOutput" required>
+				<option>PLN</option>
+				</select>
+
+				<button id="calculate">Convert!</button>
+
+		</form>
+		<p id="result"></p>
+	
+	</div>
+<script src="script.js"></script>
+
+</body>
+</html>
